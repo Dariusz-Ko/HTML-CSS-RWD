@@ -1,0 +1,472 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  max-width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: bisque; */
+}
+/* /////////////////////////////////////////////////// */
+/* Nav-bar */
+
+.nav-bar {
+  height: 50px;
+  width: 100%;
+  background-color: #4e4e4e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  display: none;
+}
+
+.left-nav-bar {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10%;
+}
+
+#offer {
+  cursor: not-allowed;
+}
+
+#contact-link {
+  cursor: not-allowed;
+}
+
+/* SEKCJA: NASZA FIRMA */
+.our-company {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: brown; */
+  background-image: url(../picture/conscious-design-XwEXvfm6MuQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  /* height: 100vh; */
+  height: 574px;
+  color: white;
+  padding: 20px 20px;
+}
+
+.our-comapny-text h3 {
+  padding: 40px 0;
+}
+
+.our-comapny-text {
+  margin-left: 10%;
+  text-shadow: 2px 0 2px black;
+}
+
+.przycisk-tekst {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.przycisk-tekst:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
+/* Nasi specjaliści */
+
+.our-specialists {
+  background-color: #f1f1f1;
+  width: 960px;
+  height: 900px;
+  display: flex;
+  padding: 20px 0;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px;
+}
+
+.our-specialists {
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+
+.our-specialists-text {
+  color: black;
+  margin-left: 10%;
+  font-weight: bold;
+}
+.row:nth-child(even) {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.row:nth-child(odd) {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .my-circle {
+  margin: 0;
+  width: 50vmin;
+  height: 50vmin;
+}
+
+.circle-2 {
+  margin: 0;
+  width: 50vmin;
+  height: 50vmin;
+} */
+
+.my-circle {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding-left: 5px;
+  border-radius: 50%;
+  /* background-color: grey; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+  /* background-image: url(../picture/my_picture.jfif); */
+  background-size: cover;
+}
+
+.circle-2 {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* background-color: grey; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
+  padding-right: 10px;
+  /* background-size: cover; */
+}
+
+.text-1 h3 {
+  font-weight: bold;
+}
+.text-1 {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: red; */
+  text-align: justify;
+  /* max-width: 500px; */
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  width: 100%;
+  padding: 0 10px;
+}
+
+.our-specialists h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 0;
+}
+
+.our-specialists-text {
+  /* margin-bottom: 10px; */
+  padding-bottom: 10px;
+  text-align: center;
+  margin-left: 0%;
+}
+
+/* /////////////////////////////////////////////
+SEKCJA "NASZA OFERTA" */
+
+.our-offer {
+  background-color: #405d78;
+  width: 960px;
+  height: auto;
+  display: flex;
+  /* padding: 10px 0; */
+  display: flex;
+  flex-direction: column;
+}
+
+.our-offer-text {
+  color: white;
+  margin-left: 10%;
+  font-weight: bold;
+}
+.our-offer h1 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.our-company {
+  margin: 0;
+  padding: 0;
+}
+
+.text-1 h3 {
+  text-align: center;
+}
+
+.footer {
+  padding-bottom: 10px;
+}
+.footer-links {
+  text-align: center;
+}
+
+.left-nav-footer p {
+  text-align: center;
+}
+
+.box {
+  transition: none;
+}
+/* z-index: 2; */
+
+.box:hover {
+  transform: none;
+  transition: none;
+}
+.row-text {
+  padding: 0 20px;
+}
+
+.box:hover {
+  transform: none;
+  transition: none;
+}
+
+.box {
+  position: relative;
+  width: 198px;
+  height: 193px;
+  background-color: #f1f1f1;
+  /* border: 1px solid white; */
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: all 0.5s;
+  /* z-index: 2; */
+}
+
+.offer-box-container {
+  width: 880px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  margin: 0 auto;
+  padding: 20px 20px;
+  vertical-align: middle;
+  align-content: center;
+  justify-content: center;
+}
+
+.box p {
+  font-size: small;
+}
+
+.red-circle {
+  position: absolute;
+  left: -10px;
+  top: -10px;
+  height: 20px;
+  width: 20px;
+  background-color: red;
+  border-radius: 50%;
+  /* z-index: 5; */
+}
+blockquote {
+  text-align: center;
+  z-index: 10;
+  /* padding-right: 20px; */
+}
+
+/* ------------------FOOTER------------------------ */
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-nav-footer {
+  padding: 0;
+}
+.footer-links {
+  padding: 10px;
+}
+
+.footer-links {
+  /* padding: 20px 0; */
+  display: flex;
+  align-items: center;
+  margin: 0 5%;
+  /* border: solid 2px black; */
+}
+
+.footer-links a {
+  color: inherit;
+  color: white;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.footer-link {
+  width: 50px;
+  font-size: 18px;
+  display: flex;
+}
+
+.footer {
+  height: auto;
+  width: 100%;
+  background-color: #4e4e4e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav-footer {
+  /* padding: 20px 0; */
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  /* cursor: pointer; */
+  margin: 0 5%;
+}
+/* ////////////////////////////////////////////////////// */
+
+/* display querry */
+
+@media screen and (min-width: 440px) {
+  /* SEKCJA NAV BAR */
+  .nav-links {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .nav-link {
+    width: 100px;
+    font-size: 18px;
+    display: flex;
+    /* justify-content: center; */
+  }
+
+  /* SEKCJA "NASI SPECJALIŚCI */
+
+  .row:nth-child(even) {
+    width: 880px;
+    /* height: 200px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    margin: 0 auto;
+    /* align-items: center; */
+    text-align: left;
+    /* justify-content: space-evenly; */
+    /* margin-bottom: 10px; */
+  }
+
+  .row:nth-child(odd) {
+    width: 880px;
+    /* height: 200px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    margin: 0 auto;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    text-align: right;
+  }
+
+  .our-specialists h1 {
+    padding-top: 20px;
+  }
+
+  .row {
+    padding-bottom: 20px;
+  }
+
+  .our-specialists-text {
+    padding-top: 20px;
+  }
+
+  .text-1 {
+    text-align: unset;
+  }
+
+  .text-1 h3 {
+    text-align: unset;
+    padding: 0 20px;
+  }
+  /* SEKCJA "CZYM ZAJMUJE SIĘ NASZA FIRMA" */
+
+  .offer-box-container {
+    width: 880px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    padding: 20px 20px;
+    vertical-align: middle;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .box:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+  }
+
+  /* Footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
