@@ -393,6 +393,11 @@ blockquote {
     /* justify-content: center; */
   }
 
+  /* SEKCJA "NASZA FIRMA" */
+  our-comapny-text. {
+    margin-left: 5%;
+  }
+
   /* SEKCJA "NASI SPECJALIŚCI */
 
   .row:nth-child(even) {
