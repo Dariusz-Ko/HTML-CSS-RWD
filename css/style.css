@@ -464,15 +464,17 @@ blockquote {
     justify-content: center;
   }
 
-  .box:hover {
-    transform: scale(1.05);
-    transition: all 0.5s;
-  }
-
   /* Footer */
   .footer {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .box:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
   }
 }
